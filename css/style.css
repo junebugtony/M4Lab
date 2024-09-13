@@ -1,4 +1,98 @@
-h1{
-  border-color: #d3e644;
-  border-style: dashed;
+body {
+  font-family: 'Roboto Condensed', sans-serif;
+  background-color: #4af24a;
+  color: black;
+}
+
+header {
+  background-color: #4af24a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+header img {
+  position: absolute;
+  top: 30px;
+  right: 20px;
+}
+
+header h1 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 50px;
+  text-shadow: 0px 0px 10px black;
+}
+
+nav {
+  width: 100%;
+  box-sizing: border-box;
+  border: 3px solid #15d915;
+  background-color: #15d915;
+  padding: 20px 20px 20px 20px;
+  display: inline-block; 
+  margin-top: 20px; 
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  font-size: 25px;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  flex: 1;
+  text-align: center;
+  margin: 0 15px;
+}
+
+nav ul li a, nav ul li span {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: block;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.main-content h2 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+.welcome-text {
+  width: 65%;
+  background-color: #15d915;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.image-sidebar {
+  width: 30%;
+  background-color: #15d915;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.image-sidebar h2 {
+  font-family: 'Cinzel Decorative', serif;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+footer {
+  background-color: #4af24a;
+  padding: 20px 0;
+  text-align: center;
+}
+
+footer p {
+  font-size: 0.9rem;
 }
