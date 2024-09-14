@@ -1,24 +1,21 @@
-# Web Dev Starter Code
+# Module 4 HTML Wrappers
 
 ## Overview
 
-TODO: Write a project description
+This project consisted of using HTML wrappers to separate groups of elements on a webpage.
+This allows for a more straightforward process of altering styling and contents of each wrapper.
+
+To view this website clone the repository locally.
+
+Then run the Live Preview button in the top right of VSCode or the Live Preview button in your IDE of choice.
+
+This will allow you to view the website within your IDE.
+
+Alternatively you can paste this address in your browser:
+
+```http://127.0.0.1:3000/```
 
 ## Sources and Credits
 
-TODO: You must credit the sources and authors of any code, libraries, or other
-assets you use in your project. If you leave this section blank, your project
-will be considered in violation of the Academic Honesty policy unless you truly
-created everything from scratch with no outside help. If you need to use a
-source that you cannot credit (e.g. a classmate's work), you must get explicit
-permission from your instructor.
-
-A simple bulleted list below is sufficient. For example:
-
-- Bootstrap: https://getbootstrap.com/
-- jQuery: https://jquery.com/
-- Background image: https://unsplash.com/photos/...
-- Sound effects: https://freesound.org/people/...
-- Icons: https://fontawesome.com/
-- Fonts: https://fonts.google.com/
-- etc.
+- Mozilla: https://developer.mozilla.org/en-US/docs/Web/HTML/Reference
+- W3Schools: https://www.w3schools.com/html/default.asp
