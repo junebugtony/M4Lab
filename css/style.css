@@ -1,11 +1,11 @@
 body {
   font-family: 'Roboto Condensed', sans-serif;
-  background-color: #4af24a;
+  background-color: #790f0f;
   color: black;
 }
 
 header {
-  background-color: #4af24a;
+  background-color: #790f0f;
   padding: 20px 0;
   text-align: center;
 }
@@ -19,17 +19,17 @@ header img {
 header h1 {
   font-family: 'Cinzel Decorative', serif;
   font-size: 50px;
-  text-shadow: 0px 0px 10px black;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
 
 nav {
-  width: 100%;
+  width: 98.5%;
   box-sizing: border-box;
-  border: 3px solid #15d915;
-  background-color: #15d915;
+  background-color: #e0da7f;
   padding: 20px 20px 20px 20px;
   display: inline-block; 
   margin-top: 20px; 
+  border-radius: 5px;
 }
 
 nav ul {
@@ -68,14 +68,15 @@ nav ul li a, nav ul li span {
 
 .welcome-text {
   width: 65%;
-  background-color: #15d915;
+  background-color: #e0da7f;
   padding: 20px;
   border-radius: 8px;
+  font-size: 20px;
 }
 
 .image-sidebar {
   width: 30%;
-  background-color: #15d915;
+  background-color: #e0da7f;
   padding: 20px;
   border-radius: 8px;
   text-align: center;
@@ -88,11 +89,13 @@ nav ul li a, nav ul li span {
 }
 
 footer {
-  background-color: #4af24a;
+  background-color: #790f0f;
   padding: 20px 0;
   text-align: center;
 }
 
 footer p {
   font-size: 0.9rem;
+  color: white;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
 }
